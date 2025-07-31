@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cream text-coffee-brown;
+}
+
+@layer components {
+  .section-divider {
+    @apply h-16 bg-tilf-pattern bg-tilf-size animate-tilf-scroll my-12;
+  }
+}
